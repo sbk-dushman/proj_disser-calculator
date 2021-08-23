@@ -1,0 +1,9 @@
+@font-face {
+font-display: swap;
+font-family: 'San Francisco Text';
+src: local('San Francisco Text'), local('San Francisco Text-Bold'),
+url('/bitrix/templates/new-design/fonts/SFUIText-Bold.woff') format('woff'),
+url('/bitrix/templates/new-design/fonts/SFUIText-Bold.ttf') format('truetype');
+font-weight: 900;
+font-style: normal;
+}

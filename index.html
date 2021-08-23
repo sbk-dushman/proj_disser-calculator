@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/style.css">
+	<title>Document</title>
+
+</head>
+<body>
+	<main>
+		<div class="central-container">
+			<h1 class="main-title">Введите значения</h1>
+			<ul class="prop-list"> <!--верхний ряд-->
+				<li>
+					<label for=""> <span class="prop-title">l</span></label>
+						<input value="1" id="prop_L" class="main-input" type="text" >
+				</li>
+				<li>
+					<label for=""> <span class="prop-title">τ</span></label>
+						<input value="1" id="prop_LMD" class="main-input" type="text">
+				</li>
+				<li>
+					<label for=""> <span class="prop-title">E</span></label>
+						<input value="1" id="prop_E" class="main-input" type="text">
+				</li>
+				<li>
+					<label for=""> <span class="prop-title">F1</span></label>
+						<input value="1" id="prop_F1" class="main-input" type="text">
+				</li>
+				<li>
+					<label for=""> <span class="prop-title">F2</span></label>
+						<input value="1" id="prop_F2" class="main-input" type="text">
+				</li>
+				<!--нижний ряд-->
+				<li>
+					<label for=""> <span class="prop-title">J1</span></label>
+						<input value="1"  id="prop_J1" class="main-input" type="text">
+				</li>
+				<li>
+					<label for=""> <span class="prop-title">α</span></label>
+						<input value="1"  id="prop_a" class="main-input" type="text">
+				</li>
+				<li>
+					<label for=""> <span class="prop-title">c</span></label>
+						<input value="1"  id="prop_c" class="main-input" type="text">
+				</li>
+				<li>
+					<label for=""> <span class="prop-title">ξ1</span></label>
+						<input value="1" id="prop_k1" class="main-input" type="text">
+				</li>
+				<li>
+					<label for=""> <span class="prop-title">ξ2</span></label>
+						<input value="1" id="prop_k2" class="main-input" type="text">
+				</li>
+				<li>
+					<label for=""> <span class="prop-title">Длина балки</span></label>
+						<input value="1" id="prop_joist"class="main-input" type="text">
+				</li>
+		</ul>
+		<button class="main-btn">Расcчитать значения</button>
+		<p class="result">
+			Итого: 	m=<span id="result_m">x</span>  
+					w=<span id="result_w">x</span>
+					t<sup>(1)</sup>= <span id="result_t1">x</span>
+					t<sup>(2)</sup>= <span id="result_t2">x</span> 
+		</p> 
+		</div>
+	</main>
+	<script src="./js/main.js" defer></script>
+</body>
+</html>
+
+
